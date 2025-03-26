@@ -1,0 +1,14 @@
+[project]
+name = "litestar-and-piccolo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "jinja2>=3.1.6",
+    "litestar>=2.15.1",
+    "piccolo-admin>=1.9.1",
+    "piccolo[postgres]>=1.24.1",
+    "pydantic-settings>=2.8.1",
+    "uvicorn>=0.34.0",
+]
